@@ -3,15 +3,19 @@ requires = ["setuptools>=69", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "penguin-tests"
+name = "penguin_tests"
 version = "0.1.0"
 description = "A basic Python project setup."
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = []
 
-[project.optional-dependencies]
-test = ["pytest==9.0.3"]
+
+[dependency-groups]
+test = [
+    "pytest>=8.0",
+    "pytest-cov",
+]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
