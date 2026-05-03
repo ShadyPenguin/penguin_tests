@@ -31,7 +31,8 @@
             "args": [
                 "${workspaceFolder}",
                 "--html=report.html",
-                "--csv=report.csv"
+                "--csv=report.csv",
+                "--alluredir=allure-results/"
             ],
             "console": "integratedTerminal",
             "justMyCode": true

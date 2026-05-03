@@ -16,7 +16,8 @@ test = [
     "pytest>=8.0",
     "pytest-cov",
     "pytest-html",
-    "pytest-csv"
+    "pytest-csv",
+    "allure-pytest"
 ]
 
 [tool.pytest.ini_options]

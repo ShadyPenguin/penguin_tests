@@ -24,6 +24,9 @@ pip-wheel-metadata/
 htmlcov/
 report.html
 report.csv
+allure-results/
+allure-report/
+allure-history.jsonl
 
 # Tool caches
 .mypy_cache/
