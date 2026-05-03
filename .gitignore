@@ -15,6 +15,7 @@ dist/
 *.egg-info/
 .eggs/
 pip-wheel-metadata/
+report.html
 
 # Test / coverage artifacts
 .pytest_cache/
@@ -31,4 +32,3 @@ htmlcov/
 # OS / editor files
 .DS_Store
 .idea/
-.vscode/
