@@ -24,13 +24,14 @@
             "justMyCode": true
         },
         {
-            "name": "Python: Run All Tests with HTML Report",
+            "name": "Python: Run All Tests with Report",
             "type": "debugpy",
             "request": "launch",
             "module": "pytest",
             "args": [
                 "${workspaceFolder}",
-                "--html=report.html"
+                "--html=report.html",
+                "--csv=report.csv"
             ],
             "console": "integratedTerminal",
             "justMyCode": true

@@ -15,13 +15,15 @@ dist/
 *.egg-info/
 .eggs/
 pip-wheel-metadata/
-report.html
+
 
 # Test / coverage artifacts
 .pytest_cache/
 .coverage
 .coverage.*
 htmlcov/
+report.html
+report.csv
 
 # Tool caches
 .mypy_cache/
