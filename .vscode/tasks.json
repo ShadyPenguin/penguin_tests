@@ -6,7 +6,7 @@
         {
             "label": "Open Allure Results Server",
             "type": "shell",
-            "command": "allure open allure-report/awesome"
+            "command": "allure awesome allure-results && allure open allure-report/awesome"
         }
     ]
 }
