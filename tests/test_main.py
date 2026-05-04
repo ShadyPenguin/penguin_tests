@@ -22,8 +22,6 @@ class TestMain:
     def test_main(self):
         assert main() == "Hello, World!"
 
-    # @allure.suite("Main")a
-    # @allure.sub_suite("Smoke")
     @pytest.mark.full
     def test_main_error(self):
         assert main() == "Hello, World!"
