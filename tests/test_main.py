@@ -7,11 +7,11 @@ from penguin_tests.main import main
 logger = logging.getLogger(__name__)
 
 
-@allure.parent_suite("App 1")
+@allure.parent_suite("Main")
 @allure.suite("Main Suite")
 @allure.sub_suite("Main Sub Suite")
 @allure.tag("owner-jake")
-@allure.tag("unit")
+@pytest.mark.unit
 class TestMain:
 
     @allure.title("Foo some Tests Bar!")

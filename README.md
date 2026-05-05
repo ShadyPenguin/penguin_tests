@@ -6,6 +6,11 @@ POC sandbox to test out pytest functionality with a UI.
 | --- | --- |
 | [Allure 3 Report](https://allurereport.org/docs/v3/install/) | `npm install -g allure` |
 
+# Generate allure reports
+1. `pytest . --alluredir=allure-results/ Run tests and output reults to allure-results/
+1. `allure awesome allure-results` Generate the awesome report
+1. `allure open allure-report/awesome` Serve the awesome report
+
 # VSC / Cursor
 ## Running tests
 

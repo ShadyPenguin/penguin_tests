@@ -7,6 +7,11 @@
             "label": "Open Allure Results Server",
             "type": "shell",
             "command": "allure awesome allure-results && allure open allure-report/awesome"
+        },
+        {
+            "label": "Copy Apple Results",
+            "type": "shell",
+            "command": "cp -r ../apple_tests/allure-results/* allure-results/"
         }
     ]
 }

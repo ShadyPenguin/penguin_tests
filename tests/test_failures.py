@@ -4,7 +4,7 @@ import allure
 from penguin_tests import failure
 
 
-@allure.parent_suite("App 1")
+@allure.parent_suite("Penguin")
 @allure.suite("Failure Suite")
 @allure.sub_suite("Failure Sub Suite")
 class TestFailure:
@@ -22,7 +22,7 @@ class TestFailure:
         assert False
 
 
-@allure.parent_suite("App 1")
+@allure.parent_suite("Penguin")
 @allure.suite("Failure Suite")
 @allure.sub_suite("Failure Extra Sub Suite")
 class TestFailureExtra:
